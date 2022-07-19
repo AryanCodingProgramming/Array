@@ -9,7 +9,7 @@ int main()
     int a[3][3] , i , j ;
 
     // USER INPUT
-    printf("Enter the Values of Matrix");
+    printf("Enter the Values of Matrix \n");
     for( i=0 ; i<=2 ; i++)
     {
         for( j=0 ; j<=2 ; j++)
@@ -20,12 +20,12 @@ int main()
     }
 
     //PRINTING
-    printf("The Matrix is ");
+    printf("The Matrix is \n");
     for( i=0 ; i<=2 ; i++)
     {
         for( j=0 ; j<=2 ; j++)
         {
-            printf("\n %d" , a[i][j]);
+            printf("  %d  " , a[i][j]);
         }
         printf("\n");
     }
