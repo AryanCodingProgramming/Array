@@ -1,0 +1,33 @@
+// WAP TO DECLARE , INITIALIZE AND PRINT A MATRIX OF 3*3
+
+
+#include <stdio.h>
+
+int main()
+{
+    //DECLARATION
+    int a[3][3] , i , j ;
+
+    // USER INPUT
+    printf("Enter the Values of Matrix");
+    for( i=0 ; i<=2 ; i++)
+    {
+        for( j=0 ; j<=2 ; j++)
+        {
+            scanf("\n %d" , &a[i][j]);
+        }
+        printf("\n");
+    }
+
+    //PRINTING
+    printf("The Matrix is ");
+    for( i=0 ; i<=2 ; i++)
+    {
+        for( j=0 ; j<=2 ; j++)
+        {
+            printf("\n %d" , a[i][j]);
+        }
+        printf("\n");
+    }
+    return 0;
+}
