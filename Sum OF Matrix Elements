@@ -1,0 +1,25 @@
+// WAP TO FIND SUM OF ELEMENTS OF MATRIX
+
+#include <stdio.h>
+
+int main()
+{
+    // DECLARATION
+    int a[3][3] , i , j , s=0 ;
+
+    // USER INPUT and SUM
+    printf("Enter the elements of Matrix");
+    for( i=0 ; i<=2 ; i++)
+    {
+        for( j=0 ; j<=2 ; j++)
+        {
+            scanf("\n %d" , &a[i][j]);
+            s = s + a[i][j];
+        }
+        printf("\n");
+    }
+    printf("The sum of elements of this matrix is %d" , s);
+    return 0;
+
+}
+
